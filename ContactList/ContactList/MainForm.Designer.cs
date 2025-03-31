@@ -57,7 +57,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(794, 432);
+=======
             this.ClientSize = new System.Drawing.Size(1067, 554);
+>>>>>>> d309ac633bb0f0f9829ebd6538bf8c0dd0e40e69
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
