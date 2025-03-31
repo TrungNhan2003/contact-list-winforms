@@ -35,28 +35,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(269, 37);
+            this.label1.Location = new System.Drawing.Point(359, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 13);
+            this.label1.Size = new System.Drawing.Size(100, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "THEM LIEN HE";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(269, 192);
+            this.button1.Location = new System.Drawing.Point(359, 236);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 66);
+            this.button1.Size = new System.Drawing.Size(172, 81);
             this.button1.TabIndex = 1;
             this.button1.Text = "THEM LIEN HE";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(794, 432);
+=======
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+>>>>>>> d309ac633bb0f0f9829ebd6538bf8c0dd0e40e69
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
